@@ -1,0 +1,90 @@
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+  }
+  h2 {
+    text-align: left;
+    color:#4caf50;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 240px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .error {
+    border: 2px solid red;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .formdiv_align{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20px;
+  }
+  .hr_style{
+    color:#45a049;
+  }
+  .message_mobile{
+    font-size: 0.9rem;
+    color:#777777;
+  }
+  .message_mobile1{
+    font-size: 1rem;
+    color:#777777;
+  }
+  .message_mobile1 a{
+    text-decoration: none;
+  }
+  .message_mobile1 a:hover{
+    color: #005580;
+    text-decoration: underline;
+  }
+  .message_mobile2 a{
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+  .message_mobile2 a:hover{
+    color: #005580;
+    text-decoration: underline;
+  }
+  .message_mobile2 {
+    margin-top:31px;
+    margin-right:20px;
+  }
+  .formdiv_align1{
+    display:flex;
+    margin-bottom:20px;
+  }
+  .form_space{
+    margin:20px 0px;
+  }
